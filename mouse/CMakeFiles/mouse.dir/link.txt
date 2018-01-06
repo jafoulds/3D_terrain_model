@@ -1,0 +1,1 @@
+/usr/bin/clang++   -std=c++11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/mouse.dir/main.cpp.o  -o /Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/mouse/mouse -framework OpenGL /usr/local/lib/libGLEW.dylib /usr/local/lib/libglfw.dylib 

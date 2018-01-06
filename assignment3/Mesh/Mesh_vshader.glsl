@@ -1,4 +1,4 @@
-#version 330 core 
+#version 330 core
 in vec3 vpoint;
 in vec3 vnormal;
 
@@ -18,6 +18,7 @@ void main() {
 
     float displacement = texture(height_map, uv).r;
     vec4 world = MODEL * vec4(vpoint + vec3(0, displacement, 0), 1.0);
+    //vec4 world = MODEL * vec4(vpoint + vec3(-1.0, displacement, -1.0), 1.0);
     gl_Position = PROJ * VIEW * world;
 
 }

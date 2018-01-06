@@ -46,7 +46,10 @@ inline GLuint generate_noise() {
         }
     }
 
-    int period = 64;
+int octaves = 8;
+int period = 8;
+for(int z = 0; z < octaves; z++){
+    period = period *2;
     float frequency = 1.0f / period;
 
     for (int i = 0; i < width; ++ i) {
@@ -73,11 +76,23 @@ inline GLuint generate_noise() {
             /// Hint: use f(t) and mix(x, y, alpha)
 
             float noise = 0;
+            float dot1, dot2, dot3, dot4;
 
+
+            dot1 = a.dot(topleft);
+            dot2 = b.dot(topright);
+            dot3 = c.dot(bottomright);
+            dot4 = d.dot(bottomleft);
+
+            float x1 = mix(dot1, dot2, dx);
+            float x2 = mix(dot4, dot3, dx);
+
+            noise = mix(x1, x2, dy);
+            noise = noise * period / 400;
             noise_data[i + j * height] += noise;
         }
     }
-
+}
     GLuint _tex;
 
     glGenTextures(1, &_tex);

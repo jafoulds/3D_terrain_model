@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="icg"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\common\;CMake Files\transform\;CMake Files\mouse\;CMake Files\assignment2\;CMake Files\framebuffer2d\;CMake Files\antialiasing\;CMake Files\assignment3\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="update_opengp">
+				<Option working_dir="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/Makefile&quot;  VERBOSE=1 update_opengp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common_headers">
+				<Option working_dir="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/Makefile&quot;  VERBOSE=1 common_headers"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="transform">
+				<Option output="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/transform/transform" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/transform"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DWITH_EIGEN"/>
+					<Add option="-DOPENGP_HEADERONLY"/>
+					<Add option="-DUSE_EIGEN"/>
+					<Add option="-DWITH_OPENGP"/>
+					<Add option="-DWITH_OPENGL"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DWITH_GLEW"/>
+					<Add option="-DWITH_GLFW"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/external/eigen/include"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/../external/OpenGP/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/transform/Makefile&quot;  VERBOSE=1 transform"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/transform/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/transform/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/transform/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="transform/fast">
+				<Option output="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/transform/transform" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/transform"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DWITH_EIGEN"/>
+					<Add option="-DOPENGP_HEADERONLY"/>
+					<Add option="-DUSE_EIGEN"/>
+					<Add option="-DWITH_OPENGP"/>
+					<Add option="-DWITH_OPENGL"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DWITH_GLEW"/>
+					<Add option="-DWITH_GLFW"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/external/eigen/include"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/../external/OpenGP/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/transform/Makefile&quot;  VERBOSE=1 transform/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/transform/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/transform/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/transform/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mouse">
+				<Option output="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/mouse/mouse" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/mouse"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DWITH_EIGEN"/>
+					<Add option="-DOPENGP_HEADERONLY"/>
+					<Add option="-DUSE_EIGEN"/>
+					<Add option="-DWITH_OPENGP"/>
+					<Add option="-DWITH_OPENGL"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DWITH_GLEW"/>
+					<Add option="-DWITH_GLFW"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/external/eigen/include"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/../external/OpenGP/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/mouse/Makefile&quot;  VERBOSE=1 mouse"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/mouse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/mouse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/mouse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mouse/fast">
+				<Option output="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/mouse/mouse" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/mouse"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DWITH_EIGEN"/>
+					<Add option="-DOPENGP_HEADERONLY"/>
+					<Add option="-DUSE_EIGEN"/>
+					<Add option="-DWITH_OPENGP"/>
+					<Add option="-DWITH_OPENGL"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DWITH_GLEW"/>
+					<Add option="-DWITH_GLFW"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/external/eigen/include"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/../external/OpenGP/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/mouse/Makefile&quot;  VERBOSE=1 mouse/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/mouse/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/mouse/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/mouse/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assignment2">
+				<Option output="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment2/assignment2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DWITH_EIGEN"/>
+					<Add option="-DOPENGP_HEADERONLY"/>
+					<Add option="-DUSE_EIGEN"/>
+					<Add option="-DWITH_OPENGP"/>
+					<Add option="-DWITH_OPENGL"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DWITH_GLEW"/>
+					<Add option="-DWITH_GLFW"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/external/eigen/include"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/../external/OpenGP/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/assignment2/Makefile&quot;  VERBOSE=1 assignment2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/assignment2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/assignment2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/assignment2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assignment2/fast">
+				<Option output="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment2/assignment2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DWITH_EIGEN"/>
+					<Add option="-DOPENGP_HEADERONLY"/>
+					<Add option="-DUSE_EIGEN"/>
+					<Add option="-DWITH_OPENGP"/>
+					<Add option="-DWITH_OPENGL"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DWITH_GLEW"/>
+					<Add option="-DWITH_GLFW"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/external/eigen/include"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/../external/OpenGP/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/assignment2/Makefile&quot;  VERBOSE=1 assignment2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/assignment2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/assignment2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/assignment2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="framebuffer2d">
+				<Option output="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/framebuffer2d/framebuffer2d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/framebuffer2d"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DWITH_EIGEN"/>
+					<Add option="-DOPENGP_HEADERONLY"/>
+					<Add option="-DUSE_EIGEN"/>
+					<Add option="-DWITH_OPENGP"/>
+					<Add option="-DWITH_OPENGL"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DWITH_GLEW"/>
+					<Add option="-DWITH_GLFW"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/external/eigen/include"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/../external/OpenGP/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/framebuffer2d/Makefile&quot;  VERBOSE=1 framebuffer2d"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/framebuffer2d/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/framebuffer2d/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/framebuffer2d/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="framebuffer2d/fast">
+				<Option output="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/framebuffer2d/framebuffer2d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/framebuffer2d"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DWITH_EIGEN"/>
+					<Add option="-DOPENGP_HEADERONLY"/>
+					<Add option="-DUSE_EIGEN"/>
+					<Add option="-DWITH_OPENGP"/>
+					<Add option="-DWITH_OPENGL"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DWITH_GLEW"/>
+					<Add option="-DWITH_GLFW"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/external/eigen/include"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/../external/OpenGP/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/framebuffer2d/Makefile&quot;  VERBOSE=1 framebuffer2d/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/framebuffer2d/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/framebuffer2d/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/framebuffer2d/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="antialiasing">
+				<Option output="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/antialiasing/antialiasing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/antialiasing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DWITH_EIGEN"/>
+					<Add option="-DOPENGP_HEADERONLY"/>
+					<Add option="-DUSE_EIGEN"/>
+					<Add option="-DWITH_OPENGP"/>
+					<Add option="-DWITH_OPENGL"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DWITH_GLEW"/>
+					<Add option="-DWITH_GLFW"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/external/eigen/include"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/../external/OpenGP/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/antialiasing/Makefile&quot;  VERBOSE=1 antialiasing"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/antialiasing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/antialiasing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/antialiasing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="antialiasing/fast">
+				<Option output="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/antialiasing/antialiasing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/antialiasing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DWITH_EIGEN"/>
+					<Add option="-DOPENGP_HEADERONLY"/>
+					<Add option="-DUSE_EIGEN"/>
+					<Add option="-DWITH_OPENGP"/>
+					<Add option="-DWITH_OPENGL"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DWITH_GLEW"/>
+					<Add option="-DWITH_GLFW"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/external/eigen/include"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/../external/OpenGP/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/antialiasing/Makefile&quot;  VERBOSE=1 antialiasing/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/antialiasing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/antialiasing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/antialiasing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assignment3">
+				<Option output="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/assignment3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DWITH_EIGEN"/>
+					<Add option="-DOPENGP_HEADERONLY"/>
+					<Add option="-DUSE_EIGEN"/>
+					<Add option="-DWITH_OPENGP"/>
+					<Add option="-DWITH_OPENGL"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DWITH_GLEW"/>
+					<Add option="-DWITH_GLFW"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/external/eigen/include"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/../external/OpenGP/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/assignment3/Makefile&quot;  VERBOSE=1 assignment3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/assignment3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/assignment3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/assignment3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assignment3/fast">
+				<Option output="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/assignment3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DWITH_EIGEN"/>
+					<Add option="-DOPENGP_HEADERONLY"/>
+					<Add option="-DUSE_EIGEN"/>
+					<Add option="-DWITH_OPENGP"/>
+					<Add option="-DWITH_OPENGL"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DWITH_GLEW"/>
+					<Add option="-DWITH_GLFW"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/external/eigen/include"/>
+					<Add directory="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/../external/OpenGP/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/assignment3/Makefile&quot;  VERBOSE=1 assignment3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/assignment3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/assignment3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3_V2/terrain_model/assignment3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/antialiasing/ScreenQuad.h">
+			<Option target="antialiasing"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/antialiasing/ScreenQuad_fshader.glsl">
+			<Option target="antialiasing"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/antialiasing/ScreenQuad_vshader.glsl">
+			<Option target="antialiasing"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/antialiasing/main.cpp">
+			<Option target="antialiasing"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment2/Quad/Quad.h">
+			<Option target="assignment2"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment2/Triangle/Triangle.h">
+			<Option target="assignment2"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment2/main.cpp">
+			<Option target="assignment2"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/Mesh/Mesh_fshader.glsl">
+			<Option target="assignment3"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/Mesh/Mesh_vshader.glsl">
+			<Option target="assignment3"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/Mesh/mesh.h">
+			<Option target="assignment3"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/Mesh2/Mesh_fshader.glsl">
+			<Option target="assignment3"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/Mesh2/Mesh_vshader.glsl">
+			<Option target="assignment3"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/Mesh2/mesh2.h">
+			<Option target="assignment3"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/Quad/Quad.h">
+			<Option target="assignment3"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/Quad/fshader.glsl">
+			<Option target="assignment3"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/Quad/vshader.glsl">
+			<Option target="assignment3"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/_multiline/line_fshader.glsl">
+			<Option target="assignment3"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/_multiline/line_vshader.glsl">
+			<Option target="assignment3"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/_multiline/multiline.h">
+			<Option target="assignment3"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/_point/point.h">
+			<Option target="assignment3"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/_point/point_fshader.glsl">
+			<Option target="assignment3"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/_point/point_selection_fshader.glsl">
+			<Option target="assignment3"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/_point/point_selection_vshader.glsl">
+			<Option target="assignment3"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/_point/point_vshader.glsl">
+			<Option target="assignment3"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/main.cpp">
+			<Option target="assignment3"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/noise.h">
+			<Option target="assignment3"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/MLogger.h">
+			<Option target="common_headers"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/check_error_gl.h">
+			<Option target="common_headers"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/icg_common.h">
+			<Option target="common_headers"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/imshow.h">
+			<Option target="common_headers"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/picoPNG.h">
+			<Option target="common_headers"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/framebuffer2d/FrameBuffer.h">
+			<Option target="framebuffer2d"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/framebuffer2d/Quad.h">
+			<Option target="framebuffer2d"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/framebuffer2d/ScreenQuad.h">
+			<Option target="framebuffer2d"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/framebuffer2d/ScreenQuad_fshader.glsl">
+			<Option target="framebuffer2d"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/framebuffer2d/ScreenQuad_vshader.glsl">
+			<Option target="framebuffer2d"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/framebuffer2d/main.cpp">
+			<Option target="framebuffer2d"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/framebuffer2d/quad_fshader.glsl">
+			<Option target="framebuffer2d"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/framebuffer2d/quad_vshader.glsl">
+			<Option target="framebuffer2d"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/mouse/_multiline/line_fshader.glsl">
+			<Option target="mouse"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/mouse/_multiline/line_vshader.glsl">
+			<Option target="mouse"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/mouse/_multiline/multiline.h">
+			<Option target="mouse"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/mouse/_point/point.h">
+			<Option target="mouse"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/mouse/_point/point_fshader.glsl">
+			<Option target="mouse"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/mouse/_point/point_selection_fshader.glsl">
+			<Option target="mouse"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/mouse/_point/point_selection_vshader.glsl">
+			<Option target="mouse"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/mouse/_point/point_vshader.glsl">
+			<Option target="mouse"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/mouse/_quad/Quad.h">
+			<Option target="mouse"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/mouse/_quad/quad_fshader.glsl">
+			<Option target="mouse"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/mouse/_quad/quad_vshader.glsl">
+			<Option target="mouse"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/mouse/main.cpp">
+			<Option target="mouse"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/transform/Quad.h">
+			<Option target="transform"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/transform/main.cpp">
+			<Option target="transform"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/transform/quad_fshader.glsl">
+			<Option target="transform"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/transform/quad_vshader.glsl">
+			<Option target="transform"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/config.cmake">
+			<Option virtualFolder="CMake Files\common\"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/Eigen.cmake">
+			<Option virtualFolder="CMake Files\common\"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/FindEigen3.cmake">
+			<Option virtualFolder="CMake Files\common\"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/OpenGP.cmake">
+			<Option virtualFolder="CMake Files\common\"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/FindOpenGP.cmake">
+			<Option virtualFolder="CMake Files\common\"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/OpenGL.cmake">
+			<Option virtualFolder="CMake Files\common\"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/GLEW.cmake">
+			<Option virtualFolder="CMake Files\common\"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/FindGLEW.cmake">
+			<Option virtualFolder="CMake Files\common\"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/GLFW.cmake">
+			<Option virtualFolder="CMake Files\common\"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/common/FindGLFW3.cmake">
+			<Option virtualFolder="CMake Files\common\"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/transform/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\transform\"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/mouse/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mouse\"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assignment2\"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/framebuffer2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\framebuffer2d\"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/antialiasing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\antialiasing\"/>
+		</Unit>
+		<Unit filename="/Users/jaredfoulds/Desktop/uvic_courses/CSC_305/A3/icg/assignment3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assignment3\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

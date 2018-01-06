@@ -9,6 +9,8 @@ protected:
     GLuint _pid; ///< GLSL shader program ID
     GLuint _height_tex;
     GLuint _diffuse_tex;
+    GLuint _snow_tex;
+    GLuint _water_tex;
 
     const std::string filename = "Mesh/grid.obj";
     OpenGP::SurfaceMesh mesh;
@@ -81,8 +83,8 @@ public:
         glBindTexture(GL_TEXTURE_2D, _diffuse_tex);
 
         check_error_gl();
-        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
-        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_WRAP_BORDER);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_WRAP_BORDER);
         glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
         glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
         check_error_gl();
@@ -93,11 +95,56 @@ public:
 
         tex_id = glGetUniformLocation(_pid, "diffuse_map");
         check_error_gl();
-        glUniform1i(tex_id, 1);
+        glUniform1i(tex_id, 1);//add everything above and change number
+        check_error_gl();
+
+        OpenGP::EigenImage<vec3> image2;
+        OpenGP::imread("snow.tga", image2);
+
+        glGenTextures(2, &_snow_tex);
+        glBindTexture(GL_TEXTURE_2D, _snow_tex);
+
+        check_error_gl();
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_WRAP_BORDER);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_WRAP_BORDER);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+        check_error_gl();
+        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB32F,
+                     image2.cols(), image2.rows(), 0,
+                     GL_RGB, GL_FLOAT, image2.data());
+        check_error_gl();
+
+        tex_id = glGetUniformLocation(_pid, "snow_map");
+        check_error_gl();
+        glUniform1i(tex_id, 2);//add everything above and change number
+        check_error_gl();
+
+        OpenGP::EigenImage<vec3> image3;
+        OpenGP::imread("rock.tga", image3);
+
+        glGenTextures(3, &_water_tex);
+        glBindTexture(GL_TEXTURE_2D, _water_tex);
+
+        check_error_gl();
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_WRAP_BORDER);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_WRAP_BORDER);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+        check_error_gl();
+        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB32F,
+                     image3.cols(), image3.rows(), 0,
+                     GL_RGB, GL_FLOAT, image3.data());
+        check_error_gl();
+
+        tex_id = glGetUniformLocation(_pid, "water_map");
+        check_error_gl();
+        glUniform1i(tex_id, 3);//add everything above and change number
         check_error_gl();
 
         glUseProgram(0);
-
+        //glUseProgram(1);
+        //glUseProgram(2);
     }
 
     void draw(mat4 Model, mat4 View, mat4 Projection){
@@ -113,10 +160,16 @@ public:
         glVertexAttribPointer(vpoint_id, 3 /*vec3*/, GL_FLOAT, DONT_NORMALIZE, ZERO_STRIDE, ZERO_BUFFER_OFFSET);
 
         glActiveTexture(GL_TEXTURE0);
-        glBindTexture(GL_TEXTURE_2D, _height_tex);
+        glBindTexture(GL_TEXTURE_2D, _height_tex);//add these more more textures
 
         glActiveTexture(GL_TEXTURE1);
         glBindTexture(GL_TEXTURE_2D, _diffuse_tex);
+
+        glActiveTexture(GL_TEXTURE2);
+        glBindTexture(GL_TEXTURE_2D, _snow_tex);
+
+        glActiveTexture(GL_TEXTURE3);
+        glBindTexture(GL_TEXTURE_2D, _water_tex);
 
         ///--- Set the MVP to vshader
         glUniformMatrix4fv(glGetUniformLocation(_pid, "MODEL"), 1, GL_FALSE, Model.data());
